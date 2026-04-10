@@ -10,7 +10,7 @@
     
     <!--HEADER NAVIGATION-->
         <header>
-            <img src="" alt="logo">
+            <img src="img/logo-gron.png" alt="logo">
             <nav>
                 <ul>
                     <li><a href="#">Forside</a></li>
@@ -36,7 +36,7 @@
 
             <div class="cards">
                 <div class="Branding">
-                    <img src="" alt="">
+                    <img src="img/branding.png" alt="branding ikon">
                     <h3>Branding</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, quibusdam deleniti! Obcaecati et vero expedita deserunt repellat aliquid, 
                         veniam vel corrupti numquam? Ipsa earum placeat alias nostrum, optio iusto nemo?</p>
@@ -44,7 +44,7 @@
                 </div>
 
                 <div class="SEO">
-                    <img src="" alt="">
+                    <img src="img/seo.png" alt="SEO ikon">
                     <h3>SEO</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, quibusdam deleniti! Obcaecati et vero expedita deserunt repellat aliquid, 
                         veniam vel corrupti numquam? Ipsa earum placeat alias nostrum, optio iusto nemo?</p>
@@ -52,7 +52,7 @@
                 </div>
 
                 <div class="Hjemmeside">
-                    <img src="" alt="">
+                    <img src="img/internet.png" alt="Website ikon">
                     <h3>Hjemmeside</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, quibusdam deleniti! Obcaecati et vero expedita deserunt repellat aliquid, 
                         veniam vel corrupti numquam? Ipsa earum placeat alias nostrum, optio iusto nemo?</p>
@@ -82,45 +82,78 @@
             </div>
 
             <div class="about-image">
-                <img src="#" alt="Møde med post-its">
+                <img src="img/workshop.jpg" alt="Møde med post-its">
             </div>
         </section>
 
     <!--KONTAKT FORMULAR-->
-        <section class="Kontakt">
-            <h2>Kontakt os</h2>
+        <section class="kontakt">
 
             <form>
-                <input type="text" placeholder="Navn">
-                <input type="email" placeholder="E-mail">
-                <input type="text" placeholder="Telefon">
-                <select>
-                    <option>Region</option>
-                    <option>Sjælland</option>
-                    <option>Fyn</option>
-                    <option>Jylland</option>
-                </select>
-                <textarea placeholder="Besked"></textarea>
-                <button type="submit">Send besked</button>
+                <h2>Kontakt os</h2>
+                <p>Kontakt os nedenfor, hvis du ønsker et uforpligtende tilbud</p>
+
+                <!--Række 1-->
+                <div class="form-row">
+                    <div>
+                        <label for="navn">Navn</label>
+                        <input type="text" name="navn" id="navn">
+                    </div>
+
+                    <div>
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                </div>
+
+                <!--Række 2-->
+                <div class="form-row">
+                    <div>
+                        <label for="telefon">Telefon</label>
+                        <input type="text" name="telefon" id="telefon">
+                    </div>
+
+                    <div>
+                        <label for="region">Region</label>
+                        <select id="region" name="region">
+                            <option>Vælg region</option>
+                            <option>Sjælland</option>
+                            <option>Fyn</option>
+                            <option>Jylland</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="besked">Besked</label>
+                    <textarea name="besked" id="besked"></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" value="Send besked">
+                </div>
+
             </form>
         </section>
 
     <!--Footer-->
         <footer>
-            <div class="footer-info">
-                <h3>Info</h3>
-                <p>Branding Co</p>
-                <p>Kassedammen 1</p>
-                <p>6755 Sønderby</p>
-                <p>Tlf: 11 22 33 44</p>
-                <p>CVR: 2343 2323</p>
+            <div class="footer-top">
+                <address>
+                    <h3>Info</h3>
+                    <p>Branding Co</p>
+                    <p>Kassedammen 1</p>
+                    <p>6755 Sønderby</p>
+                    <p>Tlf: 11 22 33 44</p>
+                    <p>CVR: 2343 2323</p>
+                </address>
+
+                <div class="footer-logo">
+                    <img src="img/logo-gron.png" alt="logo">
+                </div>
             </div>
 
-            <div class="footer-logo">
-                <img src="#" alt="logo">
-            </div>
-
-            <div class="footer-bottom">
+            <div class="footer-bund">
                 <p>Branding.co</p>
             </div>
         </footer>

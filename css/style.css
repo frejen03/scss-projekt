@@ -1,1 +1,6 @@
 /*# sourceMappingURL=style.css.map */
+.kontakt {
+  background-image: url("../images/meeting.jpg");
+  background-size: cover;
+  background-position: center;
+}
